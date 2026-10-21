@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trumpify Prints · Live Demos</title>
+<meta name="description" content="Live demos of apps and websites built with Trumpify Prints prompts on PromptBase. Each one is a single HTML file with no server.">
+<style>
+  :root{--bg:#faf6f0;--card:#fffdf9;--ink:#2a2320;--muted:#6f625a;--line:#e7ddd1;--accent:#8e2f2f;--accent-ink:#fff;color-scheme:light}
+  @media (prefers-color-scheme: dark){:root{--bg:#1b1614;--card:#241e1b;--ink:#f3ebe3;--muted:#b8a99c;--line:#3a302b;--accent:#d98b6f;--accent-ink:#1b1614;color-scheme:dark}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman",serif;padding:0 16px}
+  main{max-width:880px;margin:0 auto;padding-block:48px 64px}
+  .kicker{font:600 12px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+  h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:0 0 12px;text-wrap:balance}
+  .lede{color:var(--muted);max-width:62ch;margin:0 0 32px}
+  ul{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+  li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px}
+  .name{font-size:20px;margin:0 0 2px}
+  .what{color:var(--muted);margin:0;font-size:15px}
+  .txt{min-width:0;flex:1 1 360px}
+  a.btn{font:600 14px/1 system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--accent);color:var(--accent-ink);text-decoration:none;padding:11px 16px;border-radius:999px;white-space:nowrap}
+  a.btn:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+  footer{margin-top:36px;color:var(--muted);font-size:14px}
+  footer a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Trumpify Prints</p>
+  <h1>Live demos</h1>
+  <p class="lede">Each demo is an example built with one of our prompts on PromptBase: one HTML file, no server, no account. Names and data in the demos are invented samples.</p>
+  <ul>
+    <li><div class="txt"><p class="name">Secret Santa Draw &amp; Wishlist</p><p class="what">Fair draw with couples and exclusions, private reveals, wishlists and printable sealed cards.</p></div><a class="btn" href="./secret-santa/">Open demo</a></li>
+    <li><div class="txt"><p class="name">Digital Advent Calendar</p><p class="what">24 doors that open on their date, with messages, coupons and mini games, plus a private Maker Studio to fill them.</p></div><a class="btn" href="./advent/">Open demo</a></li>
+    <li><div class="txt"><p class="name">KDP Puzzle Book Studio</p><p class="what">Makes print-ready KDP puzzle books (word search, sudoku, mazes and more) with interior and cover PDFs. Sample PDFs included.</p></div><a class="btn" href="./puzzle-studio/">Open demo</a></li>
+    <li><div class="txt"><p class="name">Restaurant QR Menu Website</p><p class="what">A QR menu and ordering site with dish options, allergen filters and table orders sent by WhatsApp, text or email.</p></div><a class="btn" href="./qr-menu/">Open demo</a></li>
+    <li><div class="txt"><p class="name">Real Estate Agent Website</p><p class="what">Listings with filters, full property pages, a mortgage calculator and viewing requests.</p></div><a class="btn" href="./real-estate/">Open demo</a></li>
+  </ul>
+  <footer>Get the prompts: <a href="https://promptbase.com/profile/trumpify?via=trumpify">Trumpify Prints on PromptBase</a></footer>
+</main>
+</body>
+</html>
